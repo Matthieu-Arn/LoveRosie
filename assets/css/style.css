@@ -99,12 +99,21 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+.nametag a:hover {
+    text-decoration: line-through;
+}
+
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
     color: #fff;
+}
+
+.nametag:hover {
+    text-decoration: none;
+    color: red;
 }
 
 .title {
